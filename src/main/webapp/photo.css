@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.photo-upload, .photo-gallery {
+    border: 3px solid green;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.photo-upload form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo-upload input[type="file"] {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.photo-gallery .photo-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-gallery .photo-container img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: green;
+    color: white;
+}

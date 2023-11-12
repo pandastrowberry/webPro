@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: color;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.post-form, .comic-list {
+    border: 3px solid green;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.post-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-form label, .caption {
+    font-weight: bold;
+}
+
+.comic-list li {
+    border: 1px solid green;
+    padding: 1rem;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.comic-list img {
+    max-width: 100%;
+}
+
+.interactions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.like-button, .comment-button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.likes {
+    font-weight: bold;
+}

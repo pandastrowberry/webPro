@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: green;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.post-form, .news-list {
+    border: 3px solid green;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.post-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-form label, .news-title, .news-date {
+    font-weight: bold;
+}
+
+.news-list li {
+    border: 1px solid green;
+    margin : 3px;
+    padding: 1rem;
+    list-style: none;
+}
+
+.news-list a {
+    text-decoration: none;
+    color: #007BFF;
+}

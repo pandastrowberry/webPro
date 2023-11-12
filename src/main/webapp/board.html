@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>식물 쑥쑥 &nbsp; : &nbsp; 자유 게시판</title>
+    <link rel="stylesheet" href="board.css">
+</head>
+<body>
+    <header>
+        <h1>식물 속닥속닥</h1>
+    </header>
+    <main>
+        <section class="post-form" action = "board.jsp">
+            <h2>새로운 게시물 작성</h2>
+            <form>
+                <label for="username">사용자 이름:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="message">게시물 내용:</label>
+                <input type = "text" name="message" required>
+                <button type="submit">게시</button>
+            </form>
+        </section>
+        <section class="post-list">
+            <h2>게시물 목록</h2>
+            <ul>
+                <li>
+                    <span class="post-username">love_flower : </span>
+                    <span class="post-message">내 새로 온 식물을 자랑합니다. 어때요?</span>
+                </li>
+                <li>
+                    <span class="post-username">spring hub : </span>
+                    <span class="post-message">오늘은 아이와 함께 원예 수업을 들었어요!</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
